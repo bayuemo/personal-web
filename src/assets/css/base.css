@@ -1,0 +1,42 @@
+/* 去掉默认样式 */
+/* 设置统一样式 */
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,body {
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:14px;
+    color:#666764;
+    font-family:微软雅黑;
+}
+a {
+    text-decoration: none;
+    color:#666764;
+}
+img,input {
+    border:none;
+    outline-style: none;
+    padding:0;
+    vertical-align:top;
+}
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+    height:0;
+    line-height:0;
+    visibility: hidden; 
+}
+.clearfix {
+    zoom:1;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+/* 版心 */
+.w {
+    width:1190px;
+    margin:0 auto;
+}
