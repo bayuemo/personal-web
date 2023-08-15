@@ -6,14 +6,21 @@
         <div class="to_top"></div>
         <div class="line">
           <div class="to_left"></div>
-          <img src="../assets/images/maker.jpg" alt="" class="imgOne">
+          <img src="../assets/images/maker.jpg" alt="" class="imgOne" />
           <div class="to_right"></div>
         </div>
         <div class="to_bottom"></div>
       </div>
       <div class="handle_btns">
-        <router-link class="link_btn waterfall_box" to="/waterfallPage">瀑布流-vue组件</router-link>
-        <router-link class="link_btn wxapp_box" to="/wxapp">前端能力测试-小程序</router-link>
+        <router-link class="link_btn waterfall_box" to="/waterfallPage"
+          >瀑布流-vue组件</router-link
+        >
+        <router-link class="link_btn wxapp_box" to="/wxapp"
+          >前端能力测试-小程序</router-link
+        >
+        <router-link class="link_btn dragDrop_box" to="/virtualList"
+          >虚拟列表</router-link
+        >
       </div>
     </div>
   </div>
@@ -26,13 +33,13 @@
   justify-content: space-around;
 }
 .title {
-  background:#74AF55;
-  font-size:60px;
-  color:#ccc;
-  font-family:Arial, Helvetica, sans-serif;
+  background: #74af55;
+  font-size: 60px;
+  color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   text-align: center;
-  padding:20px 0;
+  padding: 20px 0;
 }
 .imgOne {
   width: 250px;
@@ -42,7 +49,7 @@
 .line {
   overflow: hidden;
   width: 100%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .to_left {
   width: 0;
@@ -70,7 +77,7 @@
 .to_top {
   width: 0;
   height: 0;
-  border-bottom: 30px solid #FBA2B3;
+  border-bottom: 30px solid #fba2b3;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
 }
@@ -81,9 +88,9 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
-  border:3px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 50%;
-  font-size:25px;
+  font-size: 25px;
   color: #333;
 }
 .handle_btns {
