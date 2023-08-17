@@ -21,6 +21,9 @@
         <router-link class="link_btn dragDrop_box" to="/virtualList"
           >虚拟列表</router-link
         >
+        <router-link class="link_btn dragDrop_box" to="/readAloud"
+          >朗读</router-link
+        >
       </div>
     </div>
   </div>

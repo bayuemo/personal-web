@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import WaterFallPage from '../views/WaterFallPage.vue'
 import Wxapp from '../views/Wxapp.vue'
 import VirtualList from "../views/VirtualList.vue"
+import ReadAloud from '../views/ReadAloud.vue';
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/virtualList',
     name: 'VirtualList',
     component: VirtualList,
+  },
+  {
+    path: '/readAloud',
+    name: 'ReadAloud',
+    component: ReadAloud,
   }
 ]
 
